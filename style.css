@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif; /* نوع الخط */
+    line-height: 1.6; /* تباعد الأسطر */
+    margin: 0; /* إلغاء الهوامش الخارجية */
+    padding: 0; /* إلغاء الهوامش الداخلية */
+}
+
+header {
+    background: #333; /* لون خلفية الرأس */
+    color: #fff; /* لون النص في الرأس */
+    padding: 10px 20px; /* الهوامش الداخلية للرأس */
+    text-align: center; /* محاذاة النص في الوسط */
+}
+
+nav ul {
+    list-style: none; /* إلغاء نقاط القائمة */
+    padding: 0; /* إلغاء الهوامش الداخلية للقائمة */
+}
+
+nav ul li {
+    display: inline; /* عرض العناصر في سطر واحد */
+    margin: 0 10px; /* الهوامش بين العناصر */
+}
+
+nav ul li a {
+    color: #fff; /* لون الروابط */
+    text-decoration: none; /* إلغاء التسطير */
+}
+
+main {
+    padding: 20px; /* الهوامش الداخلية للجزء الرئيسي */
+}
+
+
+article {
+    border: 1px solid #ddd; /* حدود المقالات */
+    margin-bottom: 20px; /* المسافة بين المقالات */
+    padding: 15px; /* الهوامش الداخلية للمقالات */
+}
+
+article img {
+    max-width: 100%; /* تحديد عرض الصورة لأقصى حد */
+    height:auto; /* الحفاظ على نسبة الطول إلى العرض */
+}
+
+.read-more {
+    display: inline-block; /* عرض الرابط ككتلة */
+    margin-top: 10px; /* المسافة العلوية بين العناصر */
+    background: #007BFF; /* لون خلفية زر قراءة المزيد */
+    color: #fff; /* لون النص في الزر */
+    padding: 10px 15px; /* الهوامش الداخلية للزر */
+    text-decoration: none; /* إلغاء التسطير */
+}
+
+form {
+    margin-top: 20px; /* المسافة العلوية للنموذج */
+}
+
+input, textarea {
+    margin-bottom: 10px; /* المسافة السفلية للحقل */
+    padding: 10px; /* الهوامش الداخلية للحقل */
+    border: 1px solid #ccc; /* حدود الحقول */
+    border-radius: 5px; /* زوايا دائرية للحقل */
+    width: 100%; /* عرض الحقول */
+}
+
+button {
+    background: #28a745; /* لون خلفية الزر */
+    color: #fff; /* لون النص في الزر */
+    padding: 10px; /* الهوامش الداخلية للزر */
+    border: none; /* إلغاء الحدود */
+    border-radius: 5px; /* زوايا دائرية للزر */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+}
+
+footer {
+    text-align: center; /* محاذاة النص في الوسط */
+    padding: 10px 0; /* الهوامش الداخلية للتذييل */
+    background: #333; /* لون خلفية التذييل */
+    color: #fff; /* لون النص في التذييل */
+    position: relative; /* تحديد موضع التذييل */
+    bottom: 0; /* تثبيت التذييل في الأسفل */
+    width: 100%; /* عرض التذييل */
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.social-links li {
+    margin: 5px 0;
+}
+
+.social-links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
